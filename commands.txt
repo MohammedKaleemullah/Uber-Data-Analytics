@@ -1,0 +1,16 @@
+sudo apt-get update
+
+sudo apt-get install python3-distutils python3-apt wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+python3 -m venv myenv
+source myenv/bin/activate
+
+pip install mage-ai
+pip install pandas
+pip install google-cloud google-cloud-bigquery
+pip install dbt dbt-bigquery botocore "dask[dataframe]"
+
+mage start kaleem-project
