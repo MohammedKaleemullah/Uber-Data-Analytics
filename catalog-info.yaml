@@ -1,7 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: uber-data-analytics
+  name: uber-data-analytics-updated
+  annotations:
+    github.com/project-slug: MohammedKaleemullah/Uber-Data-Analytics
 spec:
   type: service
   owner: user:guest
