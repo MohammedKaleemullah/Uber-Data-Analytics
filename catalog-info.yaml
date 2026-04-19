@@ -4,6 +4,7 @@ metadata:
   name: uber-data-analytics-updated
   annotations:
     github.com/project-slug: MohammedKaleemullah/Uber-Data-Analytics
+    backstage.io/source-location: url:https://github.com/MohammedKaleemullah/Uber-Data-Analytics
 spec:
   type: service
   owner: user:guest
